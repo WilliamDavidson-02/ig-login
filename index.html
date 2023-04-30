@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=https://www.instagram.com">
+    <link rel="stylesheet" href="main.css">
+    <title>Instagram</title>
+</head>
+<body>
+    <main>
+        <section class="img-preview">
+            <img id="ig-screen-2" class="iphone-img" src="img/ig-2.png">
+            <img id="ig-screen-1" class="iphone-img" src="img/ig-1.png">
+            <img class="iphone-img" src="img/ig-phone.PNG">
+        </section>
+        <section class="login-section">
+            <div class="form-container">
+                <div class="ig-logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/800px-Instagram_logo.svg.png">
+                </div>
+                <form class="ig-login-form">
+                    <div class="login-input-container">
+                        <label id="username-placeholder" for="username" class="login-placeholder">Telefonnumer, användarnamn eller e-post</label>
+                        <input id="login-username" class="login-form-input" type="text" name="username" autocomplete="off" autofocus>
+                    </div>
+                    <div class="login-input-container">
+                        <label id="password-placeholder" for="password" class="login-placeholder">Lösenord</label>
+                        <input id="login-password" class="login-form-input" type="password" name="password" autocomplete="off">
+                    </div>
+                    <button type="submit" class="ig-login-btn" id="ig-login-btn">Logga in</button>
+                    <div class="break-suggestion">
+                        <div class="line-break"></div>
+                        <div class="suggestion-span">ELLER</div>
+                        <div class="line-break"></div>
+                    </div>
+                    <button class="fb-btn">
+                        <img class="fb-btn-img" src="https://sebgroup.com/ImageVault/publishedmedia/ey6tdewo6hkt342xjf0n/Logo_Facebook_Horizontal_1180x610.jpg">
+                        Logga in med Facebook
+                    </button>
+                    <span class="password-reset">Glömt lösenordet?</span>
+                </form>
+            </div>
+            <div class="form-container">
+                <p class="register-container">Har du inget konto?<span class="register-link">Registrera dig</span></p>
+            </div>
+            <div class="ig-app-container">
+                <span class="register-container">Skaffa appen.</span>
+                <div class="app-container">
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3DB77EA40E-EF45-4CAF-933C-DC635B47E2D6%26utm_content%3Dlo%26utm_medium%3Dbadge">
+                        <img class="ig-download-link" src="https://static.cdninstagram.com/rsrc.php/v3/yI/r/q32AH3lzTi8.png">
+                    </a>
+                    <a href="ms-windows-store://pdp/?productid=9nblggh5l9xt&referrer=appbadge&source=www.instagram.com&mode=mini&pos=-3209%2C0%2C1617%2C1808">
+                        <img class="ig-download-link" src="https://static.cdninstagram.com/rsrc.php/v3/yK/r/YrgjWZooYvE.png">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="login-footer">
+        <div class="footer-links-container">
+            <a href="https://about.meta.com/">Meta</a>
+            <a href="https://about.instagram.com/">Om</a>
+            <a href="https://about.instagram.com/blog/">Blogg</a>
+            <a href="https://www.instagram.com/about/jobs/">Jobb</a>
+            <a href="https://help.instagram.com/">Hjälp</a>
+            <a href="https://developers.facebook.com/docs/instagram">API</a>
+            <a href="https://www.instagram.com/legal/privacy/">Integritet</a>
+            <a href="https://www.instagram.com/legal/terms/">Villkor</a>
+            <a href="https://www.instagram.com/directory/profiles/">Populära konton</a>
+            <a href="https://www.instagram.com/explore/locations/">Platser</a>
+            <a href="https://www.instagram.com/web/lite/">Instagram Lite</a>
+            <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.facebook.com%2Fhelp%2Finstagram%2F261704639352628&e=AT1dN9_VOrrbKJVqO-6wXbofSMKgG44okK8S30cpY0Y5KiiThEM2bYYsuYBQi9Siz2Fm3ugA9AV9boTGLxWPHP2mpcuxyXToxhEFq5uSy_nMfE5iDbFZXfdazVjRDRixBxxepXiyMuovWvAMVo3eLw">Uppladdning av kontakter och icke-användare</a>
+            <a href="https://about.meta.com/technologies/meta-verified/">Meta Verified</a>
+        </div>
+        <div class="footer-container">
+            <select name="language" class="language-container">
+                <option value="svenska">Svenska</option>
+            </select>
+            <span class="copyright-span">© 2023 Instagram from Meta</span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
